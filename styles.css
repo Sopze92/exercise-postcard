@@ -1,0 +1,113 @@
+* {
+	font-family: handlee;
+}
+
+body {
+	background: #171717;
+}
+
+.postcard-fake {
+	position: absolute;
+	opacity: 1;
+}
+
+.postcard-fake:hover {
+	position: absolute;
+	opacity: 0;
+}
+
+/* -------------- POSTCARD -------------- */
+
+.postcard {
+	width: 500px;
+	height: 350px;
+	margin: 0px;
+	padding: 12px;
+	background: #ffffff;
+}
+
+/* -------------- POSTCARD HEADER -------------- */
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+}
+
+.postcard-header h1 {
+	font-size: 30px;
+}
+
+.header-image {
+	float: right;
+	margin: auto;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.header-image img {
+	width: 70px;
+	height: 70px;
+}
+
+/* -------------- POSTCARD BODY -------------- */
+
+.postcard-body {
+	display: flex;
+}
+
+/* BODY LEFT */
+
+.body-left,
+.body-right {
+	font-size: 21px;
+	max-width: 50%;
+}
+
+.body-left p {
+	line-height: 1.2;
+}
+
+.body-left p:first-child {
+	margin-top: 7px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+/* BODY RIGHT (FORM) */
+
+.body-right form {
+	margin-left: 12px;
+}
+
+.body-right form input {
+	background: none;
+	font-size: 21px;
+	font-weight: bold;
+	color: #000;
+	border: 0px;
+	border-bottom: 1px solid #808080;
+	max-width: calc(100% - 12px);
+
+	margin-bottom: 12px;
+}
+
+/* -------------- POSTCARD FOOTER -------------- */
+
+button {
+	font-size: 19px;
+	background-color: #c0c0c0;
+	border: 0px;
+	border-bottom: 1px solid #808080;
+	padding: 2px 6px 3px 6px;
+}
+
+button:hover {
+	background-color: #d4d4d4;
+	text-shadow: 0px 0px 4px #fff;
+}
+
+button:active {
+	background-color: #a0a0a0;
+}
